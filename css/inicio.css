@@ -116,6 +116,10 @@ header{
     outline: 0;
     cursor: pointer;
 }
+.centroM{
+    display: flex;
+    justify-content: center;
+}
 
 /* design */
 .design{
