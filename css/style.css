@@ -36,7 +36,7 @@ header{
 }
 .navbar{
     background: #fff;
-    padding: 1.2rem;
+    padding: .5rem;
 }
 .navbar-brand{
     color: var(--exDark);
@@ -47,11 +47,7 @@ header{
     font-family: var(--Playfair);
     letter-spacing: 1px;
 }
-.navbar-nav{
-    padding: 0.8rem 0 0.2rem 0;
-    text-align: center;
-}
-.navbar-nav a{
+.navbar-nav li a{
     text-transform: uppercase;
     font-family: var(--Roboto);
     letter-spacing: 1px;
@@ -63,9 +59,51 @@ header{
     letter-spacing: 3px;
     transition: opacity 0.5s ease;
 }
-.navbar-nav a:hover{
+.navbar-nav li a:hover{
     color: var(--exDark);
 }
+/* */
+ul{
+    padding: 0.8rem 0 0.2rem 0;
+    text-align: center;
+    list-style: none;
+}
+#nav > li{
+    display: inline-block;
+}
+
+#nav li a{
+    background-color: #fff;
+    color: #292734;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    cursor: pointer;
+    text-align: left;
+}
+
+#nav li a:hover{
+    color: var(--exDark);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+#nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+#nav li:hover > ul{
+    display: block;
+    background-color: #fff;
+}
+
+#nav li ul li{
+    position: relative;    
+}
+/* */
+/* banner */
 .banner{
     flex: 1;
     display: flex;
