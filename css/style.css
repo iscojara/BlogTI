@@ -29,13 +29,14 @@ img{
 /* header */
 header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/banner-bg2.jpg) center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/redes4.jpg) center/cover no-repeat fixed;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
 }
 .navbar{
     background: #fff;
+    opacity: .9;
     padding: .5rem;
 }
 .navbar-brand{
@@ -156,7 +157,7 @@ ul{
 
 /* design */
 .design{
-    padding: 4.5rem 0;
+    padding-top: 4.5rem;
 }
 .title{
     text-align: center;
@@ -286,10 +287,11 @@ ul{
 
 /* about */
 .about{
-    padding: 4.5rem 0;
+    padding-top: 0px;
+    padding-bottom: 2.5rem;
 }
 .about-text{
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 .about-text > p{
     font-size: 1.1rem;

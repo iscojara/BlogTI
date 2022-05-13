@@ -11,6 +11,10 @@ const paginas=[
             {
                 nombre: "DESARROLLAR EL ACTA DE LA CONSTITUCIÓN DEL PROYECTO",
                 enlace: "fase-inicio1.html"
+            },
+            {
+                nombre: "IDENTIFICAR A LOS INTERESADOS",
+                enlace: "fase-inicio2.html"
             }
         ]
     },
