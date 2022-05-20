@@ -19,14 +19,22 @@ const paginas=[
         ]
     },
     {
-        nombre: "EN PROCESO",
+        nombre: "PROCESO DE PLANIFICACIÓN",
         enlace: "#",
-        subpagina:[]
+        subpagina:[
+            {
+                nombre: "DEFINIR EL ALCANCE",
+                enlace: "fase-plani1.html"
+            }
+
+        ]
     },  
     {
         nombre: "EN PROCESO",
         enlace: "#",
-        subpagina:[]
+        subpagina:[
+            
+        ]
     }
 ];
 var resultado="";
