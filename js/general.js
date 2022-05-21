@@ -23,10 +23,17 @@ const paginas=[
         enlace: "#",
         subpagina:[
             {
-                nombre: "DEFINIR EL ALCANCE",
+                nombre: "PLANIFICAR LA GESTIÓN DEL ALCANCE",
                 enlace: "fase-plani1.html"
+            },
+            {
+                nombre: "RECOPILAR REQUISITOS",
+                enlace: "fase-plani2.html"
+            },
+            {
+                nombre: "DEFINIR EL ALCANCE",
+                enlace: "fase-plani3.html"
             }
-
         ]
     },  
     {

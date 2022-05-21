@@ -13,7 +13,6 @@
     font-family: var(--Quicksand);
 }
 body{
-    line-height: 1.4;
     color: var(--dark);
 }
 img{
@@ -104,6 +103,9 @@ ul{
     position: relative;    
 }
 /* */
+
+
+
 /* banner */
 .banner{
     flex: 1;
@@ -158,6 +160,7 @@ ul{
 /* design */
 .design{
     padding-top: 4.5rem;
+    position: relative;
 }
 .title{
     text-align: center;
