@@ -23,6 +23,10 @@ const paginas=[
         enlace: "#",
         subpagina:[
             {
+                nombre: "PLAN PARA LA DIRECCIÓN DEL PROYECTO",
+                enlace: "fase-planI0.html"
+            },
+            {
                 nombre: "PLANIFICAR LA GESTIÓN DEL ALCANCE",
                 enlace: "fase-plani1.html"
             },
