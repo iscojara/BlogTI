@@ -37,6 +37,10 @@ const paginas=[
             {
                 nombre: "DEFINIR EL ALCANCE",
                 enlace: "fase-plani3.html"
+            },
+            {
+                nombre: "CREAR LA EDT",
+                enlace: "fase-plani4.html"
             }
         ]
     },  
