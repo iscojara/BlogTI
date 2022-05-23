@@ -1,3 +1,6 @@
+
+
+
 const paginas=[
     {
         nombre:"PRINCIPAL",
@@ -66,3 +69,26 @@ for(var i=0;i<paginas.length;i++){
     }    
 }
 document.getElementById("nav").innerHTML=resultado;
+
+// Scroll up
+document.getElementById("button-up").addEventListener("click",ScrollUp);
+
+function ScrollUp(){
+    var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+
+    if(currentScroll > 0){
+        window.requestAnimationFrame(ScrollUp);
+        window.scrollTo(0,currentScroll-(currentScroll/10));
+        buttonUp.style.transform = "scale(0)";     
+    }
+
+}
+buttonUp = document.getElementById("button-up");
+window.onscroll = function(){
+    var scroll = document.documentElement.scrollTop;
+    if(scroll > 100){
+        buttonUp.style.transform = "scale(1)";
+    }else if(scroll < 500){
+        buttonUp.style.transform = "scale(0)";
+    }
+}

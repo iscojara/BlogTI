@@ -321,6 +321,29 @@ ul{
     padding: 0.6rem 0;
     opacity: 0.8;
 }
+/* BOTON SUBIR */
+#button-up{
+    width: 60px;
+    height: 60px;
+    background: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+#button-up:hover{
+    transform: scale(1.1);
+    border-color: rgba(0, 0, 0, 0.1);
+}
 
 /* footer */
 footer{
