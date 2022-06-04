@@ -1,178 +1,216 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="es">
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>DigitalWorld Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/logo.png">
-    <!-- Font awesome icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-
-    <!-- header -->
-    <header>
-      <nav class = "navbar">
-        <div class = "container">
-          <a href = "index.html" class = "navbar-brand">DigitalWorld</a>
-          <ul class = "navbar-nav" id="nav">
-            <li><a>Menu</a></li>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <nav>
+    <div class="wrapper">
+      <div class="logo"><a href="index.html">DigitalWorld</a></div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="index.html">Principal</a></li>
+        <li>
+          <a href="#" class="desktop-item">Proceso de Inicio</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Proceso de Inicio</label>
+          <ul class="drop-menu">
+            <li><a href="fase-inicio1.html">Desarrollar el Acta de Constitución</a></li>
+            <li><a href="fase-inicio2.html">Identificar a los Interesados</a></li>
           </ul>
-        </div>
-      </nav>
-      <div class = "banner">
-        <div class = "container">
-          <h1 class = "banner-title">
-            <span>Digital</span> World
-          </h1>
-          <p>WE CONNECT MORE THAN INTERNET</p>
-        </div>
-      </div>
-    </header>
-    <!-- end of header -->
-    
-    <!-- design -->
-    <section class = "design" id = "design">
-      <div class = "container">
-        <div class = "title">
-          <h2>Integrantes del Grupo</h2>
-          <p>Proyecto de Gestión de TI</p>
-        </div>
-        <div class = "design-content">          
-          <!-- item -->
-          <div class = "design-item">
-            <div class = "design-img">
-              <img src = "images/fico.jpg" alt = "">
-              <span><i class = "fas fa-beer"></i></span>
-              <span>Systems Engineer</span>
-            </div>
-            <div class = "design-title">
-              <a href = "#">FEDERICO ANDRES ALVAREZ NUÑEZ</a>
-            </div>
-          </div>
-          <!-- end of item -->
-          <!-- item -->
-          <div class = "design-item">
-            <div class = "design-img">
-              <img src = "images/francisco.jpg" alt = "">
-              <span><i class = "fas fa-beer"></i></span>
-              <span>Systems Engineer</span>
-            </div>
-            <div class = "design-title">
-              <a href = "#">FRANCISCO OCAÑA JARA</a>
+        </li>
+        <li>
+          <a href="#" class="desktop-item">Proceso de Planificación</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Proceso de Planificación</label>
+          <div class="mega-box">
+            <div class="content">              
+              <div class="row">
+                <header><strong>Gestión de la Integración del Proyecto</strong></header>
+                <ul class="mega-links">
+                  <li><a href="fase-planI0.html">Desarrollar el Plan para la Dirección del Proyecto</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header><strong>Gestión del Alcance del Proyecto</strong></header>
+                <ul class="mega-links">
+                  <li><a href="fase-plani1.html">Planificar la Gestión del Alcance</a></li>
+                  <li><a href="fase-plani2.html">Recopilar Requisitos</a></li>
+                  <li><a href="fase-plani3.html">Definir el Alcance</a></li>
+                  <li><a href="fase-plani4.html">Crear la EDT</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header><strong>Gestión del Cronograma del Proyecto</strong></header>
+                <ul class="mega-links">
+                  <li><a href="fase-plani5.html">Planificar la Gestión del Cronograma</a></li>
+                  <li><a href="fase-plani6.html">Definir las Actividades</a></li>
+                  <li><a href="fase-plani7.html">Secuenciar las Actividades</a></li>
+                  <li><a href="fase-plani8.html">Estimar la Duración de las Actividades</a></li>
+                  <li><a href="fase-plani9.html">Desarrollar el Cronograma</a></li>
+                </ul>
+              </div>
             </div>
           </div>
-          <!-- end of item -->
-          <!-- item -->
-          <div class = "design-item">
-            <div class = "design-img">
-              <img src = "images/javier.jpg" alt = "">
-              <span><i class = "fas fa-beer"></i></span>
-              <span>Systems Engineer</span>
-            </div>
-            <div class = "design-title">
-              <a href = "#">JAVIER ANTONIO QUISPE CALIXTO</a>
-            </div>
-          </div>
-          <!-- end of item -->
-          <!-- item -->
-          <div class = "design-item">
-            <div class = "design-img">
-              <img src = "images/paulo.jpg" alt = "">
-              <span><i class = "fas fa-beer"></i></span>
-              <span>Systems Engineer</span>
-            </div>
-            <div class = "design-title">
-              <a href = "#">PAULO CESAR RAMIREZ HUAMANI</a>
-            </div>
-          </div>
-          <!-- end of item -->
-          <!-- item -->
-          <div class = "design-item">
-            <div class = "design-img">
-              <img src = "images/diego2.jpg" alt = "">
-              <span><i class = "fas fa-beer"></i></span>
-              <span>Systems Engineer</span>
-            </div>
-            <div class = "design-title">
-              <a href = "#">DIEGO ALONSO IBARRA ZAVALA</a>
-            </div>
-          </div>
-          <!-- end of item -->
-          <!-- item -->
-          <div class = "design-item">
-            <div class = "design-img">
-              <img src = "images/david.jpg" alt = "">
-              <span><i class = "fas fa-beer"></i></span>
-              <span>Systems Engineer</span>
-            </div>
-            <div class = "design-title">
-              <a href = "#">DAVID ABRAHAM TAIPE SILVA</a>
-            </div>
-          </div>
-          <!-- end of item -->
-          <div>
-            <!-- item -->
-          <div class = "design-item">
-            <div class = "design-img">
-              <img src = "images/diana.jpg" alt = "">
-              <span><i class = "fas fa-beer"></i></span>
-              <span>Systems Engineer</span>
-            </div>
-            <div class = "design-title">
-              <a href = "#">DIANA LADY SANTOS BERNAL</a>
-            </div>
-          </div>
-          <!-- end of item -->
-        </div>          
-        </div>
-      </div>
-    </section>
-    <!-- end of design -->
+        </li>
+        <li><a href="#">En Proceso</a></li>
+        <li><a href="#">En Proceso</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
 
-    <!-- about -->
-    <section class = "about" id = "about">
-      <div class = "container">
-        <div class = "title">
-          <h2 style="color: rgb(7, 7, 187);">Acerca del Proyecto</h2>
+  <!-- about -->
+  <section class = "about" id = "about">
+    <div class = "container">
+      <div class = "title">
+        <h2 style="color: rgb(7, 7, 187);">Acerca del Proyecto</h2>
+      </div>
+      <div class = "about-content">          
+        <div>
+          <img src = "images/about-bg5.jpg" alt = "">
         </div>
-        <div class = "about-content">          
-          <div>
-            <img src = "images/about-bg5.jpg" alt = "">
+        <div class = "about-text">
+          <div class = "title">
+            <h2 style="color: #ffc600;">Digital World</h2>
+            <p>WE CONNECT MORE THAN INTERNET</p>
           </div>
-          <div class = "about-text">
-            <div class = "title">
-              <h2>Digital World</h2>
-              <p>WE CONNECT MORE THAN INTERNET</p>
-            </div>
-            <p>
-              La empresa Digital World Fibersolutions brinda una variedad de servicios de internet, con una gran variedad de planes que se ajustan al bolsillo de sus clientes, donde su dueño es Zumaeta Caldera Joan Victor. Por motivos de la pandemia, la empresa se vio en obligación de aumentar su cobertura, y con ello se identificaron varias deficiencias, en las cuales se implementará un BPM para la mejora de sus procesos.  
-            </p>
-            <p>La empresa
-              ofrece el mejor servicio de telecomunicaciones al distrito de Lurín, a través de la tecnología de la Fibra óptica en hogares, empresas y negocios (FTTH) con ancho de banda desde 10 Mbps hasta 100 Mbps para entregar así una conexión estable, veloz y de alta calidad.</p>
-            </div>
+          <p>
+            La empresa Digital World Fibersolutions brinda una variedad de servicios de internet, con una gran variedad de planes que se ajustan al bolsillo de sus clientes, donde su dueño es Zumaeta Caldera Joan Victor. Por motivos de la pandemia, la empresa se vio en obligación de aumentar su cobertura, y con ello se identificaron varias deficiencias, en las cuales se implementará un BPM para la mejora de sus procesos.  
+          </p>
+          <p>La empresa
+            ofrece el mejor servicio de telecomunicaciones al distrito de Lurín, a través de la tecnología de la Fibra óptica en hogares, empresas y negocios (FTTH) con ancho de banda desde 10 Mbps hasta 100 Mbps para entregar así una conexión estable, veloz y de alta calidad.</p>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- design -->
+  <section class = "design" id = "design">
+    <div class = "container">
+      <div class = "title">
+        <h2>Integrantes del Grupo</h2>
+        <p>Proyecto de Gestión de TI</p>
+      </div>
+      <div class = "design-content">          
+        <!-- item -->
+        <div class = "design-item">
+          <div class = "design-img">
+            <img src = "images/fico.jpg" alt = "">
+            <span><i class = "fas fa-beer"></i></span>
+            <span>Systems Engineer</span>
+          </div>
+          <div class = "design-title">
+            <a href = "#">FEDERICO ANDRES ALVAREZ NUÑEZ</a>
+          </div>
         </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class = "design-item">
+          <div class = "design-img">
+            <img src = "images/francisco.jpg" alt = "">
+            <span><i class = "fas fa-beer"></i></span>
+            <span>Systems Engineer</span>
+          </div>
+          <div class = "design-title">
+            <a href = "#">FRANCISCO OCAÑA JARA</a>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class = "design-item">
+          <div class = "design-img">
+            <img src = "images/javier.jpg" alt = "">
+            <span><i class = "fas fa-beer"></i></span>
+            <span>Systems Engineer</span>
+          </div>
+          <div class = "design-title">
+            <a href = "#">JAVIER ANTONIO QUISPE CALIXTO</a>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class = "design-item">
+          <div class = "design-img">
+            <img src = "images/paulo.jpg" alt = "">
+            <span><i class = "fas fa-beer"></i></span>
+            <span>Systems Engineer</span>
+          </div>
+          <div class = "design-title">
+            <a href = "#">PAULO CESAR RAMIREZ HUAMANI</a>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class = "design-item">
+          <div class = "design-img">
+            <img src = "images/diego2.jpg" alt = "">
+            <span><i class = "fas fa-beer"></i></span>
+            <span>Systems Engineer</span>
+          </div>
+          <div class = "design-title">
+            <a href = "#">DIEGO ALONSO IBARRA ZAVALA</a>
+          </div>
+        </div>
+        <!-- end of item -->
+        <!-- item -->
+        <div class = "design-item">
+          <div class = "design-img">
+            <img src = "images/david.jpg" alt = "">
+            <span><i class = "fas fa-beer"></i></span>
+            <span>Systems Engineer</span>
+          </div>
+          <div class = "design-title">
+            <a href = "#">DAVID ABRAHAM TAIPE SILVA</a>
+          </div>
+        </div>
+        <!-- end of item -->
+        <div>
+          <!-- item -->
+        <div class = "design-item">
+          <div class = "design-img">
+            <img src = "images/diana.jpg" alt = "">
+            <span><i class = "fas fa-beer"></i></span>
+            <span>Systems Engineer</span>
+          </div>
+          <div class = "design-title">
+            <a href = "#">DIANA LADY SANTOS BERNAL</a>
+          </div>
+        </div>
+        <!-- end of item -->
+      </div>          
       </div>
-    </section>
-    <!-- Button subir -->
-    <button id="button-up" >
-      <i class="fas fa-angle-up"></i>
-    </button>
-    <!-- footer -->
-    <footer>
-      <div class = "social-links">
-        <a href = "https://www.facebook.com/digitalworld.solucines.inalambricas" target="_blank"><i class = "fab fa-facebook-f"></i></a>
-        <a href = "https://www.google.com/maps/dir/-12.1765888,-76.9622016/-12.2774215,-76.8403389/@-12.2314504,-76.978882,12z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0" target="_blank"><i class="fa fas fa-map-marker-alt"></i></a>
-        <a href = "https://www.facebook.com/messages/t/833468570051283" target="_blank"><i class = "fas fa-comments"></i></a>
-      </div>
-      <span>Digital World Blog Page</span>
-    </footer>
+    </div>
+  </section>
+  <!-- end of design -->
 
-    <!-- end of footer -->
-    
-    
-  </body>
-  <script src="js/general.js"></script>
+  
+  <!-- Button subir -->
+  <button id="button-up" >
+    <i class="fas fa-angle-up"></i>
+  </button>
+  <!-- footer -->
+  <footer>
+    <div class = "social-links">
+      <a href = "https://www.facebook.com/digitalworld.solucines.inalambricas" target="_blank"><i class = "fab fa-facebook-f"></i></a>
+      <a href = "https://www.google.com/maps/dir/-12.1765888,-76.9622016/-12.2774215,-76.8403389/@-12.2314504,-76.978882,12z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0" target="_blank"><i class="fa fas fa-map-marker-alt"></i></a>
+      <a href = "https://www.facebook.com/messages/t/833468570051283" target="_blank"><i class = "fas fa-comments"></i></a>
+    </div>
+    <span>Digital World Blog Page</span>
+  </footer>
+
+  <!-- end of footer -->
+  
+
+
+</body>
+<script src="js/general.js"></script>
 </html>

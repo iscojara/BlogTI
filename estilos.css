@@ -5,43 +5,16 @@
     --Quicksand: 'Quicksand', sans-serif;
     --Roboto: 'Roboto', sans-serif;
     --dark: #3c393d;
-    --exDark: #ffc600;
+    --exDark: #242526;
 }
-*{
-    padding: 0;
-    margin: 0;
-    font-family: var(--Quicksand);
-}
-body{
-    line-height: 1.4;
-    color: var(--dark);
-}
-img{
-    width: 100%;
-    display: block;
-}
-.container{
-    max-width: 1320px;
-    margin: 0 auto;
-    padding: 0 1.2rem;
-}
-
-/* header */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--Quicksand);
 }
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-:root{
-    --Playfair: 'Playfair Display', serif;
-    --Quicksand: 'Quicksand', sans-serif;
-    --Roboto: 'Roboto', sans-serif;
-    --dark: #3c393d;
-    --exDark: #242526;
-}
+
 img{
     width: 100%;
     display: block;
@@ -304,82 +277,27 @@ nav input{
   display: none;
 }
 
-.secondtitle p{
-    background-color: rgb(7, 7, 187);
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    font-family: var(--Reboto);
-    font-weight: 900;
-    letter-spacing: 10px;
-    transition: all 0.5s ease;
+/*borrado*/
+.body-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  padding: 0 30px;
 }
-.secondtitle p:hover{
-    color: black;
-}
-/* banner */
-.banner{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-}
-.banner-title{
-    font-size: 3rem;
-    font-family: var(--Playfair);
-    line-height: 1.2;
-}
-.banner-title span{
-    font-family: var(--Playfair);
-    color: var(--exDark);
-}
-.banner p{
-    padding: 1rem 0 2rem 0;
-    font-size: 1.2rem;
-    text-transform: capitalize;
-    font-family: var(--Roboto);
-    font-weight: 300;
-    word-spacing: 2px;
-}
-.banner form{
-    background: #fff;
-    border-radius: 2rem;
-    padding: 0.6rem 1rem;
-    display: flex;
-    justify-content: space-between;
-}
-.search-input{
-    font-family: var(--Roboto);
-    font-size: 1.1rem;
-    width: 100%;
-    outline: 0;
-    padding: 0.6rem 0;
-    border: none;
-}
-.search-input::placeholder{
-    text-transform: capitalize;
-}
-.search-btn{
-    width: 40px;
-    font-size: 1.1rem;
-    color: var(--dark);
-    border: none;
-    background: transparent;
-    outline: 0;
-    cursor: pointer;
-}
-.centroM{
-    display: flex;
-    justify-content: center;
+.body-text div{
+  font-size: 45px;
+  font-weight: 600;
 }
 
+
+/* Codigito */
 /* design */
 .design{
-    padding: 4.5rem 0;
+    padding-top: 4.5rem;
+    position: relative;
 }
 .title{
     text-align: center;
@@ -509,10 +427,11 @@ nav input{
 
 /* about */
 .about{
-    padding: 4.5rem 0;
+    padding-top: 0px;
+    padding-bottom: 2.5rem;
 }
 .about-text{
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 .about-text > p{
     font-size: 1.1rem;

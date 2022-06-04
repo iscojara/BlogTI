@@ -1,6 +1,5 @@
 
-
-
+/*
 const paginas=[
     {
         nombre:"PRINCIPAL",
@@ -56,7 +55,7 @@ const paginas=[
     }
 ];
 var resultado="";
-/* llenar los links en el nav*/
+/* llenar los links en el nav
 for(var i=0;i<paginas.length;i++){
     if(i==0){
         resultado+="<li><a href='"+paginas[i].enlace+"'>"+paginas[i].nombre+"</a></li>";
@@ -69,7 +68,7 @@ for(var i=0;i<paginas.length;i++){
     }    
 }
 document.getElementById("nav").innerHTML=resultado;
-
+*/
 // Scroll up
 document.getElementById("button-up").addEventListener("click",ScrollUp);
 
