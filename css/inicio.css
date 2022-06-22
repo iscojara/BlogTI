@@ -580,6 +580,24 @@ footer{
     font-family: var(--Playfair);
     letter-spacing: 2px;
 }
+/*Button Bootstrap*/
+.btn-boots-warning {
+  background-color: #ffc600; /* Green */
+  border: none;
+  color: white;
+  padding: 7.5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+.btn-boots-warning:hover {
+  background-color: white; /* Green */
+  color: #ffc600;
+}
 
 /* Media Queries */
 @media screen and (min-width: 540px){
