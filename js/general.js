@@ -21,7 +21,7 @@ const paginas=[
         ]
     },
     {
-        nombre: "PROCESO DE PLANIFICACIÓN",
+        nombre: "Proceso de Planificación I",
         enlace: "#",
         subpagina:[
             {
@@ -70,24 +70,26 @@ for(var i=0;i<paginas.length;i++){
 document.getElementById("nav").innerHTML=resultado;
 */
 // Scroll up
-document.getElementById("button-up").addEventListener("click",ScrollUp);
+// var texto = 'esta es pruebita';
+// document.getElementById("linksBlog").innerHTML(texto);
+document.getElementById("button-up").addEventListener("click", ScrollUp);
 
-function ScrollUp(){
+function ScrollUp() {
     var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
 
-    if(currentScroll > 0){
+    if (currentScroll > 0) {
         window.requestAnimationFrame(ScrollUp);
-        window.scrollTo(0,currentScroll-(currentScroll/10));
-        buttonUp.style.transform = "scale(0)";     
+        window.scrollTo(0, currentScroll - (currentScroll / 10));
+        buttonUp.style.transform = "scale(0)";
     }
 
 }
 buttonUp = document.getElementById("button-up");
-window.onscroll = function(){
+window.onscroll = function () {
     var scroll = document.documentElement.scrollTop;
-    if(scroll > 100){
+    if (scroll > 100) {
         buttonUp.style.transform = "scale(1)";
-    }else if(scroll < 500){
+    } else if (scroll < 500) {
         buttonUp.style.transform = "scale(0)";
     }
 }
